@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+/* FIRST BOX */
+.background_logo{
+    width: 100%;
+    background-image: url(Images/mainback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 98vh;
+}
+.tranparency{
+    width: 100%;
+    height: 98vh;
+    background: rgba(0,0,0,0.5);
+}
+.background_logo header{
+    display: flex;
+    justify-content: space-between;
+}
+.background_logo header div{
+    margin-top: 20px;
+    margin-left: 8%;
+}
+.logo{
+    font-size: 60px;
+    color: rgb(201, 8, 8);
+    font-weight: 700;
+}
+.tranparency header a{
+    margin-right: 10%;
+}
+.tranparency header button{
+    margin-top: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.display_container{
+    width: 100%;
+    margin-top: 10%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inner_container{
+    padding: 80px;
+}
+.row_1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.row_1 h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.row_1 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.row_2{
+    text-align: center;
+}
+.row_2 label{
+    font-size: 18px;
+    font-weight: 450;
+}
+.row_2 form{
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+}
+.row_2 input{
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+#email_inpt{
+    background-color: rgba(0,0,0,0.6);  
+    border: 1px solid #ababab;
+    border-radius: 4px;
+    color: #fff;
+}
+#email_inpt::placeholder{
+    font-size: 16px;
+}
+#submit_input{
+    border-radius: 5px;
+    padding: 0px 30px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+hr{
+    height: 10px;
+    background-color: #232323;
+    border: none;
+    outline: none;
+}
+/* SECOND BOX */
+.container_box{
+    width: 100%;
+    height: 70vh;
+    padding: 80px 100px 80px 40px;
+}
+.data_container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.col-1{
+    flex-basis: 50%;
+    color: #fff;
+    height: 100%;
+    padding: 8% 4% 8% 8%;
+    justify-content: center;
+}
+h2{
+    font-size: 50px;
+    font-weight: 900;
+}
+.data_container p{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.col-2{
+    flex-basis: 40%;
+}
+.tv_frame{
+    width: 100%;
+    height: 98%;
+    border: 5px solid rgb(46, 45, 45);
+    border-bottom: 10px solid rgb(46, 45, 45);
+}
+.tv_stand{
+    height: 2%;
+    background-color: rgb(30, 37, 37);
+}
+/* THIRD BOX */
+.tcolu-1{
+    flex-basis: 30%;
+    margin-left: 8%;
+}
+.tcol-1{
+    background-image: url(Images/downloadpic1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid rgb(122, 118, 118);
+    border-bottom: none;
+    border-radius: 30px 30px 0px 0px;
+    width: 90%;
+    height: 90%;
+}
+.down_photo img{
+    position: relative;
+    left: 70%;
+    bottom: 80px;
+    width: 50%;
+    height: 40%;
+}
+.tcol-2{
+    flex-basis: 60%;
+    color: #fff;
+    height: 100%;
+    padding: 8% 4% 8% 8%;
+    justify-content: center;
+}
+.end_frame i{
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 50px;
+    color: red;
+}
+/* FOURTH BOX */
+.fcol-1{
+    flex-basis: 60%;
+    color: #fff;
+    height: 100%;
+    padding: 8% 4% 8% 8%;
+    justify-content: center;
+}
+.fcol-2{
+    flex-basis: 40%;
+    background-image: url(Images/allSetScreen-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* FIFTH BOX */
+.ficol-1{
+    flex-basis: 40%;
+    margin-left: 8%;
+}
+.ficol-1 .tv_frame{
+    background-image: url(Images/best-kids-movies-on-netflix-over-the-moon-1efbf2f867ce4f28bd10df9560202195.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ficol-2{
+    flex-basis: 60%;
+    color: #fff;
+    height: 100%;
+    padding: 8% 4% 8% 8%;
+    justify-content: center;
+}
+/* Question Container Section */
+.question_container{
+    width: 100%;
+    height: 140vh;
+    padding: 40px 40px 20px 40px;
+}
+.heading{
+    color: #fff;
+    text-align: center;
+}
+.button_container button{
+    width: 100%;
+    padding: 24px;
+    color: #fff;
+    background-color: #2D2D2D;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.question_container .row_2{
+    color: #fff;
+}
+.question_container .inner_container{
+    padding: 0px;
+    margin-top: 45px;
+}
+.que-ans_container{
+    margin: 20px 0px;
+}
+.answer_holder{
+    margin-top: 1px;
+    padding: 24px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #2D2D2D;
+    display: none;
+}
+/* Footer Section */
+footer{
+    width: 100%;
+    height: 40vh;
+    padding: 40px;
+}
+.Copyright_heading{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.Copyright_heading span{
+    color: red;
+}
+.listContainer ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.listContainer li{
+    margin: 16px 0px 0px 12px;
+    width: 23%;
+}
+.listContainer li a{
+    text-decoration: none;
+    color: #FFFFFFB3;
+}
